@@ -43,9 +43,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/radgrad_logo.png',
+  footerIcon: 'img/radgrad_logo.png',
+  favicon: 'img/radgrad.ico',
 
   /* colors for website */
   colors: {
