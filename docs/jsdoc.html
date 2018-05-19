@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>JSDoc · RadGrad</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="JSDoc · RadGrad"/><meta property="og:type" content="website"/><meta property="og:url" content="https://your-docusaurus-test-site.com/index.html"/><meta property="og:description" content="Documentation for the RadGrad data model is generated using [JSDoc](http://usejsdoc.org/) with the [radgrad-jsdoc-template](https://github.com/radgrad/jsdoc-template) a modification of the [docdash](https://github.com/clenemt/docdash) theme."/><meta property="og:image" content="https://your-docusaurus-test-site.com/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://your-docusaurus-test-site.com/img/docusaurus.png"/><link rel="shortcut icon" href="/img/radgrad.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible doc separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/radgrad_logo.png" alt="RadGrad"/><h2 class="headerTitleWithLogo">RadGrad</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/README.html" target="_self">Docs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Documentation</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>Introduction</h3><ul><li class="navListItem"><a class="navItem" href="/docs/README.html">Why RadGrad?</a></li><li class="navListItem"><a class="navItem" href="/docs/Goals.html">Goals</a></li><li class="navListItem"><a class="navItem" href="/docs/About.html">About this manual</a></li></ul></div><div class="navGroup navGroupActive"><h3>Developer Guide</h3><ul><li class="navListItem"><a class="navItem" href="/docs/Installation.html">Installation</a></li><li class="navListItem"><a class="navItem" href="/docs/IDE.html">IDE Setup</a></li><li class="navListItem"><a class="navItem" href="/docs/source-code-organization.html">Source code organization</a></li><li class="navListItem"><a class="navItem" href="/docs/codingstandards.html">Coding Standards</a></li><li class="navListItem"><a class="navItem" href="/docs/testing.html">Testing</a></li><li class="navListItem"><a class="navItem" href="/docs/database-fixtures.html">Database Fixtures</a></li><li class="navListItem"><a class="navItem" href="/docs/continuous-integration.html">Continuous Integration</a></li></ul></div><div class="navGroup navGroupActive"><h3>Documentation</h3><ul><li class="navListItem"><a class="navItem" href="/docs/docusaurus.html">Docusaurus</a></li><li class="navListItem navListItemActive"><a class="navItem navItemActive" href="/docs/jsdoc.html">JSDoc</a></li></ul></div><div class="navGroup navGroupActive"><h3>Delivery</h3><ul><li class="navListItem"><a class="navItem" href="/docs/scripts.html">Development scripts</a></li><li class="navListItem"><a class="navItem" href="/docs/deployment.html">Deployment</a></li><li class="navListItem"><a class="navItem" href="/docs/cas.html">CAS Authentication</a></li><li class="navListItem"><a class="navItem" href="/docs/cloudinary.html">Cloudinary Image Service</a></li><li class="navListItem"><a class="navItem" href="/docs/star-bulk-download.html">Importing bulk STAR data</a></li><li class="navListItem"><a class="navItem" href="/docs/level-calculation.html">Level Calculation</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1>JSDoc</h1></header><article><div><span><p>Documentation for the RadGrad data model is generated using <a href="http://usejsdoc.org/">JSDoc</a> with the <a href="https://github.com/radgrad/jsdoc-template">radgrad-jsdoc-template</a> a modification of the <a href="https://github.com/clenemt/docdash">docdash</a> theme.</p>
+<h2><a class="anchor" aria-hidden="true" id="radgrad-jsdoc-conventions"></a><a href="#radgrad-jsdoc-conventions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RadGrad JSDoc Conventions</h2>
+<p>Documented Classes, functions, variables should all be in a namespace. We define the namespaces in the <strong>index.js</strong> files that import the code. The namespace is the path to the files. For example, the  api/base/index.js looks like:</p>
+<pre><code class="hljs"><span class="hljs-comment"><span class="markdown">/<span class="hljs-emphasis">** @namespace api/base *</span>/</span></span>
+
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./BaseCollection'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./BaseCollection.methods'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./BaseSlugCollection'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./BaseTypeCollection'</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'./BaseUtilities'</span>;
+</code></pre>
+<p>To make a class, method, etc part of the namespace use the <em>@memberOf</em> tag. Here's an example of the dumpDatabaseMethod in api/base.</p>
+<pre><code class="hljs"><span class="hljs-comment">/**
+ * Allows admins to create and return a JSON object to the client representing a snapshot of the RadGrad database.
+ * @memberOf api/base
+ */</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> dumpDatabaseMethod = <span class="hljs-keyword">new</span> ValidatedMethod({
+...
+}
+</code></pre>
+<p>If there isn't a namespace defined for your documentation, update the index.js file to create the namespace. <em>Note:</em> JSDoc comments not in a namespace are 'Global' and will appear at the end of the navigation menu.</p>
+<h2><a class="anchor" aria-hidden="true" id="generating-documentation"></a><a href="#generating-documentation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Generating Documentation</h2>
+<p>To generate the documentation locally, invoke:</p>
+<pre><code class="hljs">app$ meteor npm <span class="hljs-keyword">run</span><span class="bash"> jsdoc
+</span></code></pre>
+<p>This command places the JSDoc output into the <a href="https://github.com/radgrad/radgrad/tree/master/gitbook/api/jsdocs">gitbook/api/jsdocs</a> subdirectory.  The GitBook <a href="https://github.com/radgrad/radgrad/blob/master/gitbook/SUMMARY.md">summary.md</a> includes a link to the online GitBook's subdirectory where the JSDocs are located.</p>
+<p>Note that the generation of the JSDocs and their incorporation into the GitBook subdirectory is currently manual. At some point in the future, it would be good to automatically run jsdoc to ensure that the JSDocs are up to date.</p>
+<h2><a class="anchor" aria-hidden="true" id="updating-the-radgrad-jsdoc-template"></a><a href="#updating-the-radgrad-jsdoc-template" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Updating the RadGrad JSDoc Template</h2>
+<p>The RadGrad JSDoc Template is an NPM package that is loaded by RadGrad. Currently, only Cam can update the JSDoc Template since it needs to be published to NPM.</p>
+<ol>
+<li><p>Clone the <a href="https://github.com/radgrad/jsdoc-template">radgrad-jsdoc-template</a> repository.</p></li>
+<li><p>Make changes to the template.</p></li>
+<li><p>Commit the changes. You have to commit your changes before trying to update the version number.</p></li>
+<li><p>Update the NPM version number.</p></li>
+</ol>
+<pre><code class="hljs">[~<span class="hljs-string">/RadGrad/jsdoc-template</span>] $ npm <span class="hljs-keyword">version</span> <span class="hljs-keyword">patch</span>
+v1.1.2
+</code></pre>
+<p>The choices are 'patch', 'minor', or 'major'. This will commit the new version number to GitHub.</p>
+<ol start="5">
+<li>Publish the package to NPM.</li>
+</ol>
+<pre><code class="hljs">[~<span class="hljs-regexp">/RadGrad/jsdoc</span>-template] <span class="hljs-variable">$ </span>npm publish
++ radgrad-jsdoc-template<span class="hljs-variable">@1</span>.<span class="hljs-number">1.2</span>
+</code></pre>
+<ol start="6">
+<li>Switch to RadGrad and update the radgrad-jsdoc-template.</li>
+</ol>
+<pre><code class="hljs">app$ meteor npm <span class="hljs-keyword">install</span> radgrad-jsdoc-<span class="hljs-keyword">template</span> <span class="hljs-comment">--save-dev</span>
+</code></pre>
+<p>This will save the latest version of the template in the package.json file.</p>
+<ol start="7">
+<li>Generate the documentation.</li>
+</ol>
+<pre><code class="hljs">app$ meteor npm <span class="hljs-keyword">run</span><span class="bash"> jsdoc
+</span></code></pre>
+<p>Check to see if your changes to the template look good. Repeat from step 2.</p>
+<ol start="8">
+<li>Commit the new documentation.</li>
+</ol>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="docusaurus.html">← Docusaurus</a><a class="docs-next button" href="scripts.html">Development scripts →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#radgrad-jsdoc-conventions">RadGrad JSDoc Conventions</a></li><li><a href="#generating-documentation">Generating Documentation</a></li><li><a href="#updating-the-radgrad-jsdoc-template">Updating the RadGrad JSDoc Template</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/radgrad_logo.png" alt="RadGrad" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/docs/en/doc2.html">Guides (or other categories)</a><a href="/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2018 RadGrad</section></footer></div></body></html>
