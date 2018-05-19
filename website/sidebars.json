@@ -1,10 +1,11 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Introduction": ["README", "Goals", "About"],
+    "Developer Guide": ["Installation", "IDE", "source-code-organization", "codingstandards", "testing",
+      "database-fixtures", "continuous-integration"],
+    "Documentation": ["docusaurus", "jsdoc"],
+    "Delivery": ["scripts", "deployment", "cas", "cloudinary", "star-bulk-download", "level-calculation"]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
   }
 }
