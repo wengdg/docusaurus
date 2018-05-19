@@ -4,7 +4,7 @@ title: Why RadGrad?
 sidebar_label: Why RadGrad?
 ---
 
-<img src="/img/radgrad-landing.png" width="100%">
+<img src="../img/radgrad-landing.png" width="100%">
 
 We believe that the discipline of computer science evolves faster and is more pervasive than any other. "Data science" became an important area of academic study in just a few years. Self-driving cars is now an industry, but it was a research project five years ago.
 

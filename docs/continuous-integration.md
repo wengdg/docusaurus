@@ -8,7 +8,7 @@ We use Semaphore CI for [RadGrad Continuous Integration](https://semaphoreci.com
 
 Here is an example build and run of the system:
 
-<img src="/img/radgrad-semaphore-build-example.png" width="100%">
+<img src="../img/radgrad-semaphore-build-example.png" width="100%">
 
 Current build status: 
 

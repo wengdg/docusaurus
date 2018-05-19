@@ -6,27 +6,27 @@ sidebar_label: Level Calculation
 
 A feature of RadGrad is the student levels.  As students progress through their degree program, RadGrad recognizes their development through six levels, represented by the colors grey, yellow, green, blue, brown, and black. We shroud the exact requirements to achieve certain levels in mystery. The level help describes the levels as follows.
 
-## LEVEL 1: Gray <img src="/img/radgrad-level-1-icon.png" height="35" width="35"> 
+## LEVEL 1: Gray <img src="../img/radgrad-level-1-icon.png" height="35" width="35"> 
 
 You begin your RadGrad experience at Level 1, and you will receive this laptop sticker when you first sign up for RadGrad with your advisor. *\"A journey of a thousand miles begins with a single step\" -- Lao Tzu*
 
-## LEVEL 2: Yellow <img src="/img/radgrad-level-2-icon.png" height="35" width="35">
+## LEVEL 2: Yellow <img src="../img/radgrad-level-2-icon.png" height="35" width="35">
 
 Successfully finish your first semester of ICS coursework. Then meet with your advisor and ask him/her to update RadGrad with your current STAR data. That should bring you to Level 2, and earn you the Level 2 laptop sticker.
 
-## LEVEL 3: Green <img src="/img/radgrad-level-3-icon.png" height="35" width="35">
+## LEVEL 3: Green <img src="../img/radgrad-level-3-icon.png" height="35" width="35">
 
 With any luck, you'll achieve Level 3 after you complete your second semester of ICS coursework, as long as your grades are good. As before, meet with your Advisor to update RadGrad with your current STAR data, and if the system shows you've gotten to Level 3, you'll get your Green laptop sticker.
 
-## LEVEL 4: Blue <img src="/img/radgrad-level-4-icon.png" height="35" width="35">
+## LEVEL 4: Blue <img src="../img/radgrad-level-4-icon.png" height="35" width="35">
 
 ICS has a "core curriculum", and Level 4 students have not only finished it, but they have also thought beyond mere competency. Once your current STAR data is in RadGrad, and you've achieved some verified opportunities, you might just find yourself at Level 4! Meet with your advisor to pick up your sticker, and bask in the glory it will bring to you!
 
-## Level 5: Brown <img src="/img/radgrad-level-5-icon.png" height="35" width="35">
+## Level 5: Brown <img src="../img/radgrad-level-5-icon.png" height="35" width="35">
 
 Level 5 students are far along in their degree program, and they've made significant progress toward 100 verified points in each of the three ICE categories.  You will probably be at least a Junior before Level 5 becomes a realistic option for you. Keep your STAR data current in RadGrad, make sure your opportunities are verified, and good luck! Some students might graduate before reaching Level 5, so try to be one of the few that make it all the way to here!
  
-## Level 6: Black <img src="/img/radgrad-level-6-icon.png" height="35" width="35">
+## Level 6: Black <img src="../img/radgrad-level-6-icon.png" height="35" width="35">
  
 If you achieve Level 6, you are truly one of the elite ICS students, and you will have demonstrated excellent preparation for entering the workforce, or going on to Graduate School, whichever you prefer.  Congratulations!   Note that in addition to fulfilling the ICE requirements, you'll also need to "pay it forward" to the RadGrad community in order to obtain your Black RadGrad laptop sticker.
 

@@ -38,8 +38,8 @@ The script estimates that the STAR processor requires about 10 seconds per stude
 
 Login to RadGrad as an Advisor. Go to the Student Configuration page and click on the "Bulk STAR Upload" tab.
 
-<img src="/img/STAR-bulk-upload-tab.png" width="100%">
+<img src="../img/STAR-bulk-upload-tab.png" width="100%">
 
 Choose the json file containing the downloaded STAR data and press the LOAD BULK STAR DATA button. RadGrad will tell you how many students were updated or created.
 
-<img src="/img/STAR-bulk-upload-results.png" width="100%">
+<img src="../img/STAR-bulk-upload-results.png" width="100%">
