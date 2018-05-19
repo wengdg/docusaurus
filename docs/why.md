@@ -1,5 +1,5 @@
 ---
-id: README
+id: why
 title: Why RadGrad?
 sidebar_label: Why RadGrad?
 ---

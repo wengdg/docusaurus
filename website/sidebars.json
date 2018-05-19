@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Introduction": ["README", "Goals", "About"],
+    "Introduction": ["why", "Goals", "About"],
     "Developer Guide": ["Installation", "IDE", "source-code-organization", "codingstandards", "testing",
       "database-fixtures", "continuous-integration"],
     "Documentation": ["docusaurus", "jsdoc"],
