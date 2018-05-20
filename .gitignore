@@ -63,6 +63,8 @@ typings/
 .DS_Store
 
 .idea
+docusaurus.iml
+
 
 lib/core/metadata.js
 lib/core/MetadataBlog.js

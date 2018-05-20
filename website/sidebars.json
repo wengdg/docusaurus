@@ -3,9 +3,10 @@
     "Introduction": ["why", "Goals", "About"],
     "Developer Guide": ["Installation", "IDE", "source-code-organization", "codingstandards", "testing",
       "database-fixtures", "continuous-integration"],
-    "Documentation": ["docusaurus", "jsdoc"],
-    "Delivery": ["scripts", "deployment", "cas", "cloudinary", "star-bulk-download", "level-calculation"]
-  },
-  "docs-other": {
+    "Documentation": ["docusaurus", "jsdoc", "javascript-jsdocs"],
+    "Delivery": ["scripts", "deployment", "cas", "cloudinary", "star-bulk-download", "level-calculation"],
+    "Data Model": ["overview", "class-hierarchy", "entity-relationship-model", "user-management", "ice",
+      "dump-restore", "pub-sub", "integrity-checking"],
+    "Onboard Analytics": ["analytics-overview"]
   }
 }

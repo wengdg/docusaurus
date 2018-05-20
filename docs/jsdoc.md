@@ -80,3 +80,5 @@ app$ meteor npm run jsdoc
 Check to see if your changes to the template look good. Repeat from step 2.
 
 8) Commit the new documentation.
+
+## [JSDocs](https://philipmjohnson.gitbooks.io/radgrad-manual/content/api/jsdocs/)
