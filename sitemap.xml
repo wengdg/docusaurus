@@ -4,6 +4,7 @@
 <url> <loc>https://Radgrad.github.io/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/en/users.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/About.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/About.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/analytics-overview.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/analytics-overview.html" /> </url>
+<url> <loc>https://Radgrad.github.io/docs/beta-test.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/beta-test.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/cas.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/cas.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/class-hierarchy.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/class-hierarchy.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/cloudinary.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/cloudinary.html" /> </url>
@@ -25,10 +26,12 @@
 <url> <loc>https://Radgrad.github.io/docs/level-calculation.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/level-calculation.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/overview.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/overview.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/pub-sub.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/pub-sub.html" /> </url>
+<url> <loc>https://Radgrad.github.io/docs/radgrad-registration.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/radgrad-registration.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/scripts.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/scripts.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/source-code-organization.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/source-code-organization.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/star-bulk-download.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/star-bulk-download.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/testing.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/testing.html" /> </url>
+<url> <loc>https://Radgrad.github.io/docs/use-cases.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/use-cases.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/user-management.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/user-management.html" /> </url>
 <url> <loc>https://Radgrad.github.io/docs/why.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://Radgrad.github.io/docs/why.html" /> </url>
 </urlset>
