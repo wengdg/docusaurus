@@ -1,7 +1,7 @@
 ---
 id: javascript-jsdocs
 title: RadGrad Javascript Documentation
-sidebar_label: RadGrad Javascript Documentation
+sidebar_label: Javascript
 ---
 
-[Javascript documentation](https://philipmjohnson.gitbooks.io/radgrad-manual/content/api/jsdocs/)
+[Javascript API](https://philipmjohnson.gitbooks.io/radgrad-manual/content/api/jsdocs/)
