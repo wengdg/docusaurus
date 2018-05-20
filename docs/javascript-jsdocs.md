@@ -1,6 +1,6 @@
 ---
 id: javascript-jsdocs
-title: RadGrad Javascript Documentation
+title: RadGrad Javascript API
 sidebar_label: Javascript
 ---
 
