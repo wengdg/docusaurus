@@ -40,6 +40,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    { doc: 'why', label: 'Documentation'},
+    { blog: true, label: 'News' }
   ],
 
   // If you have users set above, you add it here:
