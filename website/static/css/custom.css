@@ -1,4 +1,16 @@
 /* your custom css */
+body {
+    font-family: 'Open Sans','Helvetica Neue',Arial,'Helvetica',SansSerif,sans-serif;
+}
+
+.roundedImage {
+    border-radius: 50%;
+}
+
+.smallPadding {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }

@@ -57,7 +57,7 @@ const Logo = props => (
 
 const ProjectTitle = props => (
   <div>
-    <h2 style={{fontFamily: 'Gugi'}} className="projectTitle">{siteConfig.title}</h2>
+    <h2 className="projectTitle">{siteConfig.title}</h2>
     <h2> {siteConfig.tagline}</h2>
   </div>
 );
@@ -92,6 +92,15 @@ const Block = props => (
   </Container>
 );
 
+const LeftBlock = props => (
+  <Container
+    padding={['bottom', 'top']}
+    id={props.id}
+    background={props.background}>
+    <GridBlock align="left" contents={props.children} layout={props.layout}/>
+  </Container>
+);
+
 const BlockNoPadding = props => (
   <Container
     padding={[]}
@@ -103,100 +112,155 @@ const BlockNoPadding = props => (
 
 const Features = props => (
   <div>
-    <Block background="light" layout="threeColumn">
+    <LeftBlock background="light" layout="threeColumn">
       {[
         {
-          content: 'Our custom hardware samples the power quality waveform over 15,000 times a second, computing frequency, voltage, and total harmonic distortion, and uploads low fidelity data to our cloud-based middleware using WiFi.',
-          image: imgUrl('opqbox_photo.jpg'),
-          imageAlign: 'top',
-          title: 'Power Quality Monitoring',
+          content: 'The discipline of computer science evolves faster than any other. "Data science" became an important area\n' +
+          '          of academic study in just a few years. In the same short time period, new technologies like Meteor and Docker\n' +
+          '          have\n' +
+          '          transformed application development.',
+          image: imgUrl('data-science-degree.png'),
+          imageAlign: 'left',
+          align: 'left',
+          title: 'The rate of change of computer science',
         },
         {
-          content: 'OPQ Middleware processes the low fidelity PQ data stream. When it detects anomalies, it requests high fidelity waveform data from one or more OPQ Boxes to aid in analysis and interpretation.',
-          image: imgUrl('middleware.png'),
-          imageAlign: 'top',
-          title: 'Dynamic Middleware',
+          content: 'In Marc Andreessen\'s Wall Street Journal article, he goes on to say: "we are in the middle of a dramatic and\n' +
+          '          broad technological and economic shift in which software\n' +
+          '          companies are poised to take over large swathes of the economy."',
+          image: imgUrl('why-software-is-eating-the-world.jpg'),
+          imageAlign: 'left',
+          align: 'left',
+          title: 'Software is eating the world',
         },
         {
-          content: 'OPQ View provides visualization and configuration controls to enable users to understand and interpret power quality locally and across the grid.',
-          image: imgUrl('opqview-landing.png'),
-          imageAlign: 'top',
-          title: 'Visualization and Notification',
+          content: 'RadGrad analyzes current degree program progress with respect to future career desires, and helps\n' +
+          '          students and their department actively plan in a data-driven fashion to improve post-graduation\n' +
+          '          outcomes.',
+          image: imgUrl('radgrad-diagram.jpg'),
+          imageAlign: 'left',
+          align: 'left',
+          title: 'RadGrad in a nutshell',
         },
       ]}
-    </Block>
+    </LeftBlock>
   </div>
 );
 
-const OPQFeatures = props => (
-  <div className="productShowcaseSection paddingBottom">
-    <h2 style={{ fontWeight: "bold" }}>Features</h2>
-    <BlockNoPadding layout="threeColumn">
+const Feature1 = props => (
+  <div>
+    <LeftBlock background="light" layout="twoColumn">
       {[
         {
-          title: 'Easy installation',
-          content: 'Just plug in an OPQ Box to any wall outlet within reach of a WiFi network, then login to OPQ View to indicate where your box is located. Your power quality data will be uploaded to the cloud and available for analysis immediately.',
+          content: '',
+          image: imgUrl('data-science-degree.png'),
+          imageAlign: 'left',
+          align: 'left',
+          title: 'The rate of change of computer science',
         },
         {
-          title: 'Low and high fidelity data',
-          content: 'Each OPQ Box sends a summary of the maximum and minimum frequency, voltage, and total harmonic distortion observed each second. If the OPQ middleware needs higher fidelity data, the OPQ Box can send it.',
-        },
-        {
-          title: 'Local and Grid-level Anomalies',
-          content: 'When the same anomaly is reported by multiple OPQ Boxes at the same time, our middleware classifies it as grid-level. If there aren\'t multiple reports, then it\'s presumed to be local.',
-        },
-        {
-          title: 'Configurable alerts',
-          content: 'OPQ gathers data on even minor power quality perturbations, but not all of them are actionable or meaningful to users. We are implementing a configurable alert mechanism to inform users when important anomalies occur.',
-        },
-        {
-          title: 'Annotations',
-          content: 'Making power quality data useful often involves understanding the context surrounding an anomaly. We will support these associative analyses through an annotation facility',
-        },
-        {
-          title: 'Extensible and Interoperable',
-          content: 'Our middleware provides a plug-in architecture to simplify the addition of new analyses. In addition, we provide a data model specification so that other services can build off OPQ data.',
+          content: '<p>The discipline of computer science evolves faster than any other. "Data science" became an important area\n' +
+          '          of academic study in just a few years. In the same short time period, new technologies like Meteor and Docker\n' +
+          '          have\n' +
+          '          transformed application development.</p>\n' +
+          '        <p>Even the teaching of computer science is subject to frequent disruption. The first course taught as a\n' +
+          '          "Massively Online Open Course" (MOOC) was Artificial Intelligence. A recent trend is the "coding bootcamp", a\n' +
+          '          short, intensive, high-cost, non-university traineeship to help non-programmers quickly develop simple web\n' +
+          '          application development skills.</p>\n' +
+          '        <p>This rate of change means the discipline of computer science can evolve significantly from the time a student\n' +
+          '          enters university to the time they graduate. RadGrad helps academic computer science degree programs, and the\n' +
+          '          students in them, evolve their educational processes as fast as the discipline itself.</p>',
+          align: 'left',
         },
       ]}
-    </BlockNoPadding>
+    </LeftBlock>
   </div>
 );
 
-const Testimonials = props => (
-  <div className="productShowcaseSection paddingBottom lightBackground">
-    <h2 style={{ fontWeight: "bold", paddingTop: "25px", paddingBottom: "25px" }}>User Communities</h2>
-    <div className="testimonials">
-      <Container padding={[]}>
-        <GridBlock align="center"
-                   contents={[
-                     {
-                       content:
-                         "*OPQ provides useful infrastructure to support research on the impact of renewable energy on the smart grid.*",
-                       image: `${siteConfig.baseUrl}docs/assets/people/kuh.jpg`,
-                       imageAlign: "top",
-                       title: '<div style="line-height: 20px">Anthony Kuh <br/><font size="2">Professor, UH</font><br/><font size="2">Renewable Energy Researcher</font></div>'
-                     },
-                     {
-                       content:
-                         "*The OPQ Agile Power Monitoring project will help us better understand the UH microgrid.*",
-                       image: `${siteConfig.baseUrl}docs/assets/people/topping.png`,
-                       imageAlign: "top",
-                       title: '<div style="line-height: 20px">Miles Topping <br/><font size="2">Director of Energy Management, UH</font><br/><font size="2">Microgrid Manager</font></div>'
-                     },
-                     {
-                       content:
-                         "*Working on OPQ enables me to learn about hardware, software, data science, software engineering, and sustainability.*",
-                       image: `${siteConfig.baseUrl}docs/assets/people/foltz.jpg`,
-                       imageAlign: "top",
-                       title: '<div style="line-height: 20px">Kaila Foltz<br/><font size="2">Student, UH</font><br/><font size="2">Undergraduate CS Major</font></div>'
-                     }
-                   ]}
-                   layout="threeColumn"
-        />
-      </Container>
-    </div>
+const Feature2 = props => (
+  <div>
+    <LeftBlock  layout="twoColumn">
+      {[
+        {
+          content: '<p>In Marc Andreessen\'s Wall Street Journal article, he goes on to say: "we are in the middle of a dramatic and\n' +
+          '          broad technological and economic shift in which software\n' +
+          '          companies are poised to take over large swathes of the economy."</p>\n' +
+          '        <p>Some of the evidence: two billion people now use broadband Internet, up from 50 million a decade ago. The\n' +
+          '          cost of cloud computing in that same decade has dropped from approximately $150K/month to $1500/month. The\n' +
+          '          world\'s largest bookstore, Amazon, is a software company. The largest video service, NetFlix, is a software\n' +
+          '          company. The most dominant music companies---Apple, Spotify, Pandora---are software companies. The fastest\n' +
+          '          growing entertainment companies (videogames) are software companies. The fastest growing telcom is Skype; a\n' +
+          '          software company.</p>\n' +
+          '        <p>What does this imply for computer science students? It means that not\n' +
+          '          only is computer science evolving <i>faster</i> than any other discipline, it is also more <i>pervasive</i>\n' +
+          '          than any\n' +
+          '          other discipline. CS\n' +
+          '          students are surrounded by opportunities, but the competition for those opportunities is higher than ever.\n' +
+          '          RadGrad helps CS students work smart as well as hard in order to maximize their chances for future success.\n' +
+          '        </p>',
+          align: 'left',
+        },
+        {
+          content: '',
+          image: imgUrl('why-software-is-eating-the-world.jpg'),
+          imageAlign: 'left',
+          align: 'left',
+          title: 'Why Software is eating the world',
+        },
+      ]}
+    </LeftBlock>
   </div>
 );
+
+const Feature3 = props => (
+  <div>
+    <LeftBlock background="light" layout="twoColumn">
+      {[
+        {
+          content: '',
+          image: imgUrl('radgrad-diagram.jpg'),
+          imageAlign: 'left',
+          align: 'left',
+          title: 'RadGrad in a nutshell',
+        },
+        {
+          content: '<p>RadGrad analyzes current degree program progress with respect to future career desires, and helps\n' +
+          '          students and their department actively plan in a data-driven fashion to improve post-graduation\n' +
+          '          outcomes.</p>\n' +
+          '        <p>RadGrad helps computer science students evaluate the sometimes overwhelming number of academic and\n' +
+          '          extracurricular opportunities, and determine ways to invest their time most productively given their career\n' +
+          '          goals. </p>\n' +
+          '        <p>RadGrad also helps computer science departments by providing data-backed evidence regarding the success,\n' +
+          '          failure, and as-yet unrealized opportunities for the department to help produce successful computer\n' +
+          '          scientists. </p>',
+          align: 'left',
+        },
+      ]}
+    </LeftBlock>
+  </div>
+);
+
+const Feature4 = props => (
+  <div>
+    <LeftBlock  layout="twoColumn">
+      {[
+        {
+          content: '<p>In this 12 minute screencast, Amy Takayesu, a graduate student in ICS, explains RadGrad from the\n' +
+          '          student perspective.</p>',
+          align: 'left',
+        },
+        {
+          content: '<div style="margin-top:20px; margin-bottom: 20px;" class="embed-responsive embed-responsive-4by3">\n' +
+          '          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/BzgBlgWfTdE"></iframe>\n' +
+          '        </div>',
+          align: 'left',
+          title: 'Amy Takayesu on RadGrad',
+        },
+      ]}
+    </LeftBlock>
+  </div>
+);
+
 
 class Index extends React.Component {
   render() {
@@ -205,9 +269,10 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language}/>
         <div className="mainContainer">
-          <Features/>
-          <OPQFeatures/>
-          <Testimonials/>
+          <Feature1/>
+          <Feature2/>
+          <Feature3/>
+          <Feature4/>
         </div>
       </div>
     );
