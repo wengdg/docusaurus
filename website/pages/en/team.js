@@ -49,7 +49,48 @@ class Team extends React.Component {
         img_src: imgUrl('garces.jpg'),
         description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
       },
-    ];
+/*      <div className="row">
+        {% include team-member.html name="Philip Johnson" photo="johnson.jpg" description="Professor, Department of Information and Computer Sciences, University of Hawaii"  time="Head Hacker Wrangler, Fall, 2015 - present"%}
+        {% include team-member.html name="Sorapong Khongnawang" photo="khongnawang.jpg" description="Student, Department of Electrical Engineering, University of Hawaii"  time="Developer, Spring, 2016" %}
+      </div>
+      < div className = "row" >
+        { % include team - member.html name = "Kenny Luong" photo = "luong.png" description = "Student, Department of Electrical Engineering, University of Hawaii"  time = "Developer, Spring, 2016" %
+  }
+
+    {%
+      include
+      team - member.html
+      name = "Cam Moore"
+      photo = "moore.jpg"
+      description = "Professor, Department of Information and Computer Sciences, University of Hawaii"
+      time = "Developer, Fall, 2016 - present" %
+    }
+  </div>
+    <div className="row">
+      {% include team-member.html name="Sy Morikawa" photo="morikawa.jpg" description="Student, Department of Information and Computer Sciences, University of Hawaii"  time="Developer, Spring, 2016" %}
+      {% include team-member.html name="Michael-Brian Ogawa" photo="ogawa.jpg" description="Professor, Department of Information and Computer Sciences, University of Hawaii"  time="Advisory Board member, Summer, 2016 - present"%}
+    </div>
+    <div className="row">
+      {% include team-member.html name="Aljon Preza" photo="preza.png" description="Student, Department of Information and Computer Sciences, University of Hawaii"  time="Developer, Spring, 2016" %}
+      {% include team-member.html name="Scott Robertson" photo="robertson.jpg" description="Professor, Department of Information and Computer Sciences, University of Hawaii"  time="Advisory Board member, Summer, 2016 - present"%}
+    </div>
+    <div className="row">
+      {% include team-member.html name="Michele Shimoda" photo="shimoda.jpg" description="Student, Department of Electrical Engineering, University of Hawaii"  time="Developer, Spring, 2016" %}
+
+      {% include team-member.html name="Michael Spencer" photo="spencer.jpg" description="Student, Department of Electrical Engineering, University of Hawaii"  time="Developer, Spring, 2016" %}
+    </div>
+    <div className="row">
+      {% include team-member.html name="Amy Takayesu" photo="takayesu.jpeg" description="Student, Department of Information and Computer Sciences, University of Hawaii"  time="Developer, Fall, 2016 - present" %}
+
+      {% include team-member.html name="Micah Tashima" photo="tashima.jpg" description="Student, Department of Information and Computer Sciences, University of Hawaii"  time="Developer, Spring, 2016" %}
+    </div>
+    <div className="row">
+      {% include team-member.html name="Kelsie Yamakawa" photo="yamakawa.jpg" description="Student, Department of Electrical Engineering, University of Hawaii"  time="Developer, Spring, 2016" %}
+
+      {% include team-member.html name="Gilbert Yim" photo="yim.jpg" description="Student, Department of Electrical Engineering, University of Hawaii"  time="Developer, Spring, 2016" %}
+    </div>
+*/
+  ];
     return (
       <Container>
         <h2>Team Directory</h2>
