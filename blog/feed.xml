@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>RadGrad Blog</title>
+        <link>https://Radgrad.github.io/docusaurus/blog</link>
+        <description>The best place to stay up-to-date with the latest RadGrad news and events.</description>
+        <lastBuildDate>Wed, 02 Aug 2017 06:00:00 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>RadGrad Blog</title>
+            <url>https://Radgrad.github.io/docusaurus/img/radgrad_logo.png</url>
+            <link>https://Radgrad.github.io/docusaurus/blog</link>
+        </image>
+        <copyright>Copyright © 2018 RadGrad</copyright>
+        <item>
+            <title><![CDATA[Pilot study has begun!]]></title>
+            <link>https://Radgrad.github.io/docusaurus/blog/2017/08/02/pilot-study.html</link>
+            <guid>https://Radgrad.github.io/docusaurus/blog/2017/08/02/pilot-study.html</guid>
+            <pubDate>Wed, 02 Aug 2017 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>We are starting a pilot study of RadGrad in Fall 2017 in the Department of Information and Computer Sciences at the University of Hawaii.</p>
+<p>During the pilot study, we hope to register at least 100 students in RadGrad, and learn about any usability is</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Amy Takayesu finishes M.S. thesis on RadGrad]]></title>
+            <link>https://Radgrad.github.io/docusaurus/blog/2017/07/07/amy-takayesu.html</link>
+            <guid>https://Radgrad.github.io/docusaurus/blog/2017/07/07/amy-takayesu.html</guid>
+            <pubDate>Fri, 07 Jul 2017 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Amy Takayesu has completed her M.S. thesis, entitled: &quot;RADGRAD: Using degree planning, social networking, and gamification to improve academic, professional, and social engagement during the undergraduate computer science degree experience&quot;.</p>
+<p>Abstra</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Amy Takayesu presents RadGrad at Booz Allen Ideas Festival]]></title>
+            <link>https://Radgrad.github.io/docusaurus/blog/2017/01/29/booz-allen.html</link>
+            <guid>https://Radgrad.github.io/docusaurus/blog/2017/01/29/booz-allen.html</guid>
+            <pubDate>Sun, 29 Jan 2017 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Amy Takayesu was invited to speak at the <a href="http://www.boozallen.com/insights/ideas/booz-allen-ideas-festival">2017 Booz Allen Ideas Festival</a> in Honolulu, HI.  She was the only student selected to present as part of the Ignite sessions.</p>
+<p>Amy present</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Fall 2016 team forms,  RadGrad manual released]]></title>
+            <link>https://Radgrad.github.io/docusaurus/blog/2016/10/15/fall-team.html</link>
+            <guid>https://Radgrad.github.io/docusaurus/blog/2016/10/15/fall-team.html</guid>
+            <pubDate>Sat, 15 Oct 2016 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This fall, Philip Johnson, Cam Moore, Josephine Garces, Aljon Preza, and Amy Takayesu began work on the first production release of RadGrad.</p>
+<p>Our first significant accomplishment is an update to the organization of the project. The [RadGrad Manual](h</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RadGrad Advisory Board meets]]></title>
+            <link>https://Radgrad.github.io/docusaurus/blog/2016/07/15/rab.html</link>
+            <guid>https://Radgrad.github.io/docusaurus/blog/2016/07/15/rab.html</guid>
+            <pubDate>Fri, 15 Jul 2016 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>The RadGrad Advisory Board, consisting of Philip Johnson, Henri Casanova, Michael-Brian Ogawa, Scott Robertson, and David Chin, held their first meeting on July 27, 2016.  They discussed the direction of the project and plans for collecting baseline</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spring 2016 team forms to develop data model and mockups]]></title>
+            <link>https://Radgrad.github.io/docusaurus/blog/2016/01/16/spring-team.html</link>
+            <guid>https://Radgrad.github.io/docusaurus/blog/2016/01/16/spring-team.html</guid>
+            <pubDate>Sat, 16 Jan 2016 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>The RadGrad team for Spring, 2016 has been formed. See the <a href="../organization/team.html">Team Page</a> for the members.</p>
+<p>We have also been hard at work on the Data Model, and an initial implementation is now available as a [Meteor package](<a href="https://atmosp">https://atmosp</a></p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[RadGrad begins]]></title>
+            <link>https://Radgrad.github.io/docusaurus/blog/2015/11/03/starting-up.html</link>
+            <guid>https://Radgrad.github.io/docusaurus/blog/2015/11/03/starting-up.html</guid>
+            <pubDate>Tue, 03 Nov 2015 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>The RadGrad project is starting up!  Please contact Philip Johnson if you would like to be involved.</p>
+]]></description>
+        </item>
+    </channel>
+</rss>
