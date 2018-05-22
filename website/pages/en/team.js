@@ -49,7 +49,18 @@ class Team extends React.Component {
         img_src: imgUrl('garces.jpg'),
         description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
       },
-/*      <div className="row">
+/*
+      ## Semester breakdown
+
+RadGrad development began in Fall, 2015 with a series of brainstorming sessions involving Philip Johnson and Henri Casanova to generate a set of potential goals and design ideas for the system.
+
+In Summer, 2016, David Chin, Scott Robertson, Michael-Brian Ogawa, and Henri Casanova agreed to join Philip Johnson to form the RadGrad Advisory Board. The board will meet a few times per year to oversee the direction of the project.
+
+In Spring, 2016, members of ICS 414 (Brian Boado, Josephine Garces, Sorapong Khongnawang, Aljon Preza, Michael Spencer, Micah Tashima, Gilbert Yim, Kenny Luong, Sy Morikawa, Michele Shimoda, Philip Johnson, and Kelsie Yamakawa) generated a series of mockups and greatly refined the requirements and goals for the system.
+
+In Fall, 2016, Amy Takeyesu, Cam Moore, Josephine Garces, Aljon Preza, and Philip Johnson began work on the first production release of the system.
+
+<div className="row">
         {% include team-member.html name="Philip Johnson" photo="johnson.jpg" description="Professor, Department of Information and Computer Sciences, University of Hawaii"  time="Head Hacker Wrangler, Fall, 2015 - present"%}
         {% include team-member.html name="Sorapong Khongnawang" photo="khongnawang.jpg" description="Student, Department of Electrical Engineering, University of Hawaii"  time="Developer, Spring, 2016" %}
       </div>
