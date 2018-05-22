@@ -57,8 +57,12 @@ const Logo = props => (
 
 const ProjectTitle = props => (
   <div>
-    <h2 className="projectTitle">{siteConfig.title}</h2>
-    <h2> {siteConfig.tagline}</h2>
+    <img style={{ paddingRight: "10px" }} width='55px' src={imgUrl('radgrad_logo.png')}/>
+    <span>
+    <span style={{ fontFamily: 'Nunito', fontWeight: 700 }} className="projectTitle">RAD</span>
+    <span style={{ fontFamily: 'Nunito', fontWeight: 400 }} className="projectTitle">GRAD</span>
+    </span>
+    <h2 style={{ fontFamily: 'Open+Sans' }}>{siteConfig.tagline}</h2>
   </div>
 );
 
@@ -75,6 +79,7 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
+
         <div className="inner">
           <ProjectTitle/>
         </div>
@@ -152,7 +157,7 @@ const Feature1 = props => (
     <LeftBlock background="light" layout="twoColumn">
       {[
         {
-          content: '',
+          content: ' ',
           image: imgUrl('data-science-degree.png'),
           imageAlign: 'left',
           align: 'left',
@@ -179,7 +184,7 @@ const Feature1 = props => (
 
 const Feature2 = props => (
   <div>
-    <LeftBlock  layout="twoColumn">
+    <LeftBlock layout="twoColumn">
       {[
         {
           content: '<p>In Marc Andreessen\'s Wall Street Journal article, he goes on to say: "we are in the middle of a dramatic and\n' +
@@ -242,7 +247,7 @@ const Feature3 = props => (
 
 const Feature4 = props => (
   <div>
-    <LeftBlock  layout="twoColumn">
+    <LeftBlock layout="twoColumn">
       {[
         {
           content: '<p>In this 12 minute screencast, Amy Takayesu, a graduate student in ICS, explains RadGrad from the\n' +

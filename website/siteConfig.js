@@ -21,12 +21,11 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'RadGrad' /* title for your website */,
+  title: 'RADGRAD' /* title for your website */,
   tagline: 'Growing awesome computer scientists, one graduate at a time',
   url: 'https://Radgrad.github.io' /* your website url */,
-  // baseUrl: '/docusaurus/' /* base url for your project */,
-  // for running locally baseUrl: '/',
-  baseUrl: '/' /* base url for your project */,
+  baseUrl: '/docusaurus/' /* base url for your project */,
+  // baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -41,7 +40,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'why', label: 'Documentation'},
-    { page: 'team', label: 'Team'},
+    { page: 'team2', label: 'Team'},
     { blog: true, label: 'News' }
   ],
 
@@ -91,6 +90,7 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags
   scripts: ['https://buttons.github.io/buttons.js'],
 
+  stylesheets: ['https://fonts.googleapis.com/css?family=Nunito', 'https://fonts.googleapis.com/css?family=Open+Sans'],
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',
 
