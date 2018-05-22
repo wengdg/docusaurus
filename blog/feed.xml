@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>RadGrad Blog</title>
+        <title>RADGRAD Blog</title>
         <link>https://Radgrad.github.io/docusaurus/blog</link>
-        <description>The best place to stay up-to-date with the latest RadGrad news and events.</description>
+        <description>The best place to stay up-to-date with the latest RADGRAD news and events.</description>
         <lastBuildDate>Wed, 02 Aug 2017 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>RadGrad Blog</title>
+            <title>RADGRAD Blog</title>
             <url>https://Radgrad.github.io/docusaurus/img/radgrad_logo.png</url>
             <link>https://Radgrad.github.io/docusaurus/blog</link>
         </image>
