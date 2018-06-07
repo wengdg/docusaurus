@@ -2,7 +2,7 @@
   "docs": {
     "Introduction": ["why", "Goals", "About"],
     "Developer Guide": ["Installation", "IDE", "source-code-organization", "codingstandards", "testing",
-      "database-fixtures", "continuous-integration"],
+      "admin-datamodel-ui", "database-fixtures", "continuous-integration"],
     "Data Model": ["overview", "class-hierarchy", "entity-relationship-model", "user-management", "ice",
       "dump-restore", "pub-sub", "integrity-checking"],
     "API": ["javascript-jsdocs"],
