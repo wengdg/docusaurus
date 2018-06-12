@@ -4,8 +4,6 @@ title: Why RadGrad?
 sidebar_label: Why RadGrad?
 ---
 
-<img src="../img/radgrad-landing.png" width="100%">
-
 We believe that the discipline of computer science evolves faster and is more pervasive than any other. "Data science" became an important area of academic study in just a few years. Self-driving cars is now an industry, but it was a research project five years ago.
 
 Even the teaching of computer science is subject to frequent disruption. The first course taught as a "Massively Online Open Course" (MOOC) was Artificial Intelligence. A recent trend is the "coding bootcamp", a short, intensive, high-cost, non-university traineeship to help non-programmers quickly develop simple web application development skills. For some, bootcamps call into the question the return-on-investment of a four year university degree in computer science.

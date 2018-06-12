@@ -1,29 +1,9 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-// See https://docusaurus.io/docs/site-config.html for all the possible
-// site configuration options.
-
-/* List of projects/orgs using your project for the users page */
-const users = [
-  // {
-  //   caption: 'User1',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    // image: '/img/docusaurus.svg',
-    // infoLink: 'https://www.facebook.com',
-    // pinned: true,
-  // },
-];
+// See https://docusaurus.io/docs/site-config.html for all the possible site configuration options.
 
 const siteConfig = {
-  title: 'RADGRAD' /* title for your website */,
+  title: 'RadGrad' /* title for your website */,
   tagline: 'Growing awesome computer scientists, one graduate at a time',
-  url: 'https://Radgrad.github.io' /* your website url */,
+  url: 'https://radgrad.github.io' /* your website url */,
   baseUrl: '/docusaurus/' /* base url for your project */,
   // baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -44,9 +24,6 @@ const siteConfig = {
     { blog: true, label: 'News' }
   ],
 
-  // If you have users set above, you add it here:
-  users,
-
   /* path to images for header/footer */
   headerIcon: 'img/radgrad_logo.png',
   footerIcon: 'img/radgrad_logo.png',
@@ -57,24 +34,6 @@ const siteConfig = {
     primaryColor: '#2E8555',
     secondaryColor: '#205C3B',
   },
-
-  /* custom fonts for website */
-  // fonts: {
-  //   myFont: [
-  //     "Open Sans",
-  //     "Helvetica Neue",
-  //     "Arial",
-  //     "Helvetica",
-  //     "sans-serif"
-  //   ],
-  //   myOtherFont: [
-  //     "Open Sans",
-  //     "Helvetica Neue",
-  //     "Arial",
-  //     "Helvetica",
-  //     "sans-serif"
-  //   ]
-  // },
 
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
@@ -90,7 +49,7 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags
   scripts: ['https://buttons.github.io/buttons.js'],
 
-  stylesheets: ['https://fonts.googleapis.com/css?family=Nunito', 'https://fonts.googleapis.com/css?family=Open+Sans'],
+  stylesheets: ['https://fonts.googleapis.com/css?family=Nunito'],
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',
 
