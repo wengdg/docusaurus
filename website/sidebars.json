@@ -1,14 +1,12 @@
 {
   "docs": {
-    "Introduction": ["why", "Goals", "About"],
-    "Developer Guide": ["Installation", "IDE", "source-code-organization", "codingstandards", "testing",
-      "admin-datamodel-ui", "database-fixtures", "continuous-integration"],
-    "Data Model": ["overview", "class-hierarchy", "entity-relationship-model", "user-management", "ice",
-      "dump-restore", "pub-sub", "integrity-checking"],
-    "API": ["javascript-jsdocs"],
-    "Documentation": ["docusaurus", "jsdoc"],
-    "Delivery": ["scripts", "deployment", "cas", "cloudinary", "star-bulk-download", "level-calculation"],
-    "Onboard Analytics": ["analytics-overview"],
-    "Archive": ["use-cases", "beta-test", "radgrad-registration"]
+    "Introduction": ["intro-motivation", "intro-goals", "intro-about"],
+    "Developer Guide": ["developer-guide-installation", "developer-guide-ide", "developer-guide-source-code-organization", "developer-guide-coding-standards", "developer-guide-testing", "developer-guide-admin-datamodel-ui", "developer-guide-database-fixtures", "developer-guide-continuous-integration"],
+    "Data Model": ["data-model-overview", "data-model-class-hierarchy", "data-model-entity-relationship-model", "data-model-user-management", "data-model-ice", "data-model-dump-restore", "data-model-pub-sub", "data-model-integrity-checking"],
+    "API": ["api-javascript-jsdocs"],
+    "Documentation": ["documentation-docusaurus", "documentation-jsdoc"],
+    "Delivery": ["delivery-scripts", "delivery-deployment", "delivery-cas", "delivery-cloudinary", "delivery-star-bulk-download", "delivery-level-calculation"],
+    "Analytics": ["analytics-overview"],
+    "Archive": ["archive-use-cases", "archive-beta-test", "archive-radgrad-registration"]
   }
 }
