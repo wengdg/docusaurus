@@ -4,6 +4,10 @@
   font-size: 16px;
 }
 
+.projectTitle {
+  font-size: 460%;
+}
+
 
 .roundedImage {
     border-radius: 50%;
