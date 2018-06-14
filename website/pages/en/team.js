@@ -17,7 +17,7 @@ function imgUrl(img) {
 
 const TeamCard = props => (
   <Container className='smallPadding'>
-    <div style={{ width: '25%', float: 'left' }}>
+    <div style={{ width: '25%', float: 'top' }}>
       <img className="roundedImage" src={props.person.img_src} width="100px"/>
     </div>
     <div style={{ width: '75%', float: 'right' }}>
@@ -32,186 +32,125 @@ class Team extends React.Component {
   render() {
     const team = [
       {
-        name: 'Brian Boado',
-        img_src: imgUrl('boado.jpg'),
-        description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Brian Boado',
+        image: imgUrl('boado.jpg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Henri Casanova',
-        img_src: imgUrl('casanova.jpg'),
-        description: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Advisory Board member, Spring, 2016 - present',
+        title: 'Henri Casanova',
+        image: imgUrl('casanova.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Spring, 2016 - present',
+        imageAlign: 'left',
       },
       {
-        name: 'David Chin',
-        img_src: imgUrl('chin.jpg'),
-        description: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Advisory Board member, Summer, 2016 - present',
+        title: 'David Chin',
+        image: imgUrl('chin.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
+        imageAlign: 'left',
       },
       {
-        name: 'Josephine Garces',
-        img_src: imgUrl('garces.jpg'),
-        description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Josephine Garces',
+        image: imgUrl('garces.jpg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Philip Johnson',
-        img_src: imgUrl('johnson.jpg'),
-        description: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Head Hacker Wrangler, Fall, 2015 - present',
+        title: 'Philip Johnson',
+        image: imgUrl('johnson.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Head Hacker Wrangler, Fall, 2015 - present',
+        imageAlign: 'left',
       },
       {
-        name: 'Sorapong Khongnawang',
-        img_src: imgUrl('khongnawang.jpg'),
-        description: 'Student, Department of Electrical Engineering, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Sorapong Khongnawang',
+        image: imgUrl('khongnawang.jpg'),
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Kenny Luong',
-        img_src: imgUrl('luong.png'),
-        description: 'Student, Department of Electrical Engineering, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Kenny Luong',
+        image: imgUrl('luong.png'),
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Cam Moore',
-        img_src: imgUrl('moore.jpg'),
-        description: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Developer, Fall, 2016 - present',
+        title: 'Cam Moore',
+        image: imgUrl('moore.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Developer, Fall, 2016 - present',
+        imageAlign: 'left',
       },
       {
-        name: 'Sy Morikawa',
-        img_src: imgUrl('morikawa.jpg'),
-        description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Sy Morikawa',
+        image: imgUrl('morikawa.jpg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Michael-Brian Ogawa',
-        img_src: imgUrl('ogawa.jpg'),
-        description: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Advisory Board member, Summer, 2016 - present',
+        title: 'Michael-Brian Ogawa',
+        image: imgUrl('ogawa.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
+        imageAlign: 'left',
       },
       {
-        name: 'Aljon Preza',
-        img_src: imgUrl('preza.png'),
-        description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Aljon Preza',
+        image: imgUrl('preza.png'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Scott Robertson',
-        img_src: imgUrl('robertson.jpg'),
-        description: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Advisory Board member, Summer, 2016 - present',
+        title: 'Scott Robertson',
+        image: imgUrl('robertson.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
+        imageAlign: 'left',
       },
       {
-        name: 'Michele Shimoda',
-        img_src: imgUrl('shimoda.jpg'),
-        description: 'Student, Department of Electrical Engineering, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Michele Shimoda',
+        image: imgUrl('shimoda.jpg'),
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Michael Spencer',
-        img_src: imgUrl('spencer.jpg'),
-        description: 'Student, Department of Electrical Engineering, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Michael Spencer',
+        image: imgUrl('spencer.jpg'),
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Amy Takayesu',
-        img_src: imgUrl('takayesu.jpeg'),
-        description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Developer, Fall, 2016 - Spring, 2017',
+        title: 'Amy Takayesu',
+        image: imgUrl('takayesu.jpeg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Fall, 2016 - Summer, 2017',
+        imageAlign: 'left',
       },
       {
-        name: 'Micah Tashima',
-        img_src: imgUrl('tashima.jpg'),
-        description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Micah Tashima',
+        image: imgUrl('tashima.jpg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Danny Weng',
-        img_src: imgUrl('weng.jpg'),
-        description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
-        time: 'Developer, Spring 2018',
+        title: 'Danny Weng',
+        image: imgUrl('weng.jpg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring 2018',
+        imageAlign: 'left',
       },
       {
-        name: 'Kelsie Yamakawa',
-        img_src: imgUrl('yamakawa.jpg'),
-        description: 'Student, Department of Electrical Engineering, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Kelsie Yamakawa',
+        image: imgUrl('yamakawa.jpg'),
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
       {
-        name: 'Gilbert Yim',
-        img_src: imgUrl('yim.jpg'),
-        description: 'Student, Department of Electrical Engineering, University of Hawaii',
-        time: 'Developer, Spring, 2016',
+        title: 'Gilbert Yim',
+        image: imgUrl('yim.jpg'),
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
       },
-      /*
-
-
-      */
     ];
     return (
       <Container>
-         <h2>Team Directory</h2>
-        <p style={{paddingBottom: "20px"}}>Our thanks to all of the dedicated students, faculty, and staff who have helped with the design and implementation of RadGrad.</p>
-        <div className="roundedImageCorner">
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[0]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[1]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[2]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[3]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[4]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[5]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[6]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[7]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[8]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[9]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[10]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[11]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[12]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[13]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[14]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[15]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[16]}/>
-        </div>
-        <div style={{ width: '50%', float: 'right' }}>
-          <TeamCard person={team[17]}/>
-        </div>
-        <div style={{ width: '50%', float: 'left' }}>
-          <TeamCard person={team[18]}/>
-        </div>
+        <h2>Team Directory</h2>
+        <div className="roundedImage team">
+          <GridBlock align="left" contents={team} layout="threeColumn"/>
         </div>
       </Container>
     )

@@ -62,7 +62,7 @@ const ProjectTitle = props => (
     <span style={{ fontFamily: 'Nunito', fontWeight: 700 }} className="projectTitle">RAD</span>
     <span style={{ fontFamily: 'Nunito', fontWeight: 400 }} className="projectTitle">GRAD</span>
     </span>
-    <h2 style={{ fontFamily: 'Open+Sans' }}>{siteConfig.tagline}</h2>
+    <h2>{siteConfig.tagline}</h2>
   </div>
 );
 
@@ -79,7 +79,6 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-
         <div className="inner">
           <ProjectTitle/>
         </div>
@@ -87,6 +86,28 @@ class HomeSplash extends React.Component {
     );
   }
 }
+
+const Overview = props => (
+    <div className="overview">
+      <p style={{fontSize: "24px", paddingTop: "30px", paddingBottom: "10px"}}>The goal of RadGrad is to improve the undergraduate STEM degree experience.</p>
+      <p style={{paddingBottom: "10px", fontWeight: "300"}}>Target outcomes include increased engagement and retention for women and underrepresented minorities,</p>
+    <p style={{paddingBottom: "10px", fontWeight: "300"}}>and improved post-graduation career opportunities for all participating students.</p>
+      <p style={{paddingBottom: "10px", fontWeight: "300"}}>We currently focus on computer science and computer engineering degree programs.</p>
+    </div>
+);
+
+const AmyVideo = props => (
+    <div style={{background: "white", paddingTop: "20px", paddingBottom: "20px"}}>
+
+      <div align="center" className="inner" style={{paddingTop: "20px"}}>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BzgBlgWfTdE" frameBorder="0"
+                allow="autoplay; encrypted-media" allowFullScreen></iframe>
+      </div>
+      <div style={{textAlign: "center"}}>
+        <p style={{fontWeight: "400", fontSize: "16px"}}>Introduction to RadGrad, Amy Takayesu (January, 2017)</p>
+      </div>
+    </div>
+);
 
 const Block = props => (
   <Container
@@ -113,136 +134,6 @@ const BlockNoPadding = props => (
     background={props.background}>
     <GridBlock align="center" contents={props.children} layout={props.layout}/>
   </Container>
-);
-
-const Features = props => (
-  <div>
-    <LeftBlock background="light" layout="threeColumn">
-      {[
-        {
-          content: 'The discipline of computer science evolves faster than any other. "Data science" became an important area\n' +
-          '          of academic study in just a few years. In the same short time period, new technologies like Meteor and Docker\n' +
-          '          have\n' +
-          '          transformed application development.',
-          image: imgUrl('data-science-degree.png'),
-          imageAlign: 'left',
-          align: 'left',
-          title: 'The rate of change of computer science',
-        },
-        {
-          content: 'In Marc Andreessen\'s Wall Street Journal article, he goes on to say: "we are in the middle of a dramatic and\n' +
-          '          broad technological and economic shift in which software\n' +
-          '          companies are poised to take over large swathes of the economy."',
-          image: imgUrl('why-software-is-eating-the-world.jpg'),
-          imageAlign: 'left',
-          align: 'left',
-          title: 'Software is eating the world',
-        },
-        {
-          content: 'RadGrad analyzes current degree program progress with respect to future career desires, and helps\n' +
-          '          students and their department actively plan in a data-driven fashion to improve post-graduation\n' +
-          '          outcomes.',
-          image: imgUrl('radgrad-diagram.jpg'),
-          imageAlign: 'left',
-          align: 'left',
-          title: 'RadGrad in a nutshell',
-        },
-      ]}
-    </LeftBlock>
-  </div>
-);
-
-const Feature1 = props => (
-  <div>
-    <LeftBlock background="light" layout="twoColumn">
-      {[
-        {
-          content: ' ',
-          image: imgUrl('data-science-degree.png'),
-          imageAlign: 'left',
-          align: 'left',
-          title: 'The rate of change of computer science',
-        },
-        {
-          content: '<p>The discipline of computer science evolves faster than any other. "Data science" became an important area\n' +
-          '          of academic study in just a few years. In the same short time period, new technologies like Meteor and Docker\n' +
-          '          have\n' +
-          '          transformed application development.</p>\n' +
-          '        <p>Even the teaching of computer science is subject to frequent disruption. The first course taught as a\n' +
-          '          "Massively Online Open Course" (MOOC) was Artificial Intelligence. A recent trend is the "coding bootcamp", a\n' +
-          '          short, intensive, high-cost, non-university traineeship to help non-programmers quickly develop simple web\n' +
-          '          application development skills.</p>\n' +
-          '        <p>This rate of change means the discipline of computer science can evolve significantly from the time a student\n' +
-          '          enters university to the time they graduate. RadGrad helps academic computer science degree programs, and the\n' +
-          '          students in them, evolve their educational processes as fast as the discipline itself.</p>',
-          align: 'left',
-        },
-      ]}
-    </LeftBlock>
-  </div>
-);
-
-const Feature2 = props => (
-  <div>
-    <LeftBlock layout="twoColumn">
-      {[
-        {
-          content: '<p>In Marc Andreessen\'s Wall Street Journal article, he goes on to say: "we are in the middle of a dramatic and\n' +
-          '          broad technological and economic shift in which software\n' +
-          '          companies are poised to take over large swathes of the economy."</p>\n' +
-          '        <p>Some of the evidence: two billion people now use broadband Internet, up from 50 million a decade ago. The\n' +
-          '          cost of cloud computing in that same decade has dropped from approximately $150K/month to $1500/month. The\n' +
-          '          world\'s largest bookstore, Amazon, is a software company. The largest video service, NetFlix, is a software\n' +
-          '          company. The most dominant music companies---Apple, Spotify, Pandora---are software companies. The fastest\n' +
-          '          growing entertainment companies (videogames) are software companies. The fastest growing telcom is Skype; a\n' +
-          '          software company.</p>\n' +
-          '        <p>What does this imply for computer science students? It means that not\n' +
-          '          only is computer science evolving <i>faster</i> than any other discipline, it is also more <i>pervasive</i>\n' +
-          '          than any\n' +
-          '          other discipline. CS\n' +
-          '          students are surrounded by opportunities, but the competition for those opportunities is higher than ever.\n' +
-          '          RadGrad helps CS students work smart as well as hard in order to maximize their chances for future success.\n' +
-          '        </p>',
-          align: 'left',
-        },
-        {
-          content: '',
-          image: imgUrl('why-software-is-eating-the-world.jpg'),
-          imageAlign: 'left',
-          align: 'left',
-          title: 'Why Software is eating the world',
-        },
-      ]}
-    </LeftBlock>
-  </div>
-);
-
-const Feature3 = props => (
-  <div>
-    <LeftBlock background="light" layout="twoColumn">
-      {[
-        {
-          content: '',
-          image: imgUrl('radgrad-diagram.jpg'),
-          imageAlign: 'left',
-          align: 'left',
-          title: 'RadGrad in a nutshell',
-        },
-        {
-          content: '<p>RadGrad analyzes current degree program progress with respect to future career desires, and helps\n' +
-          '          students and their department actively plan in a data-driven fashion to improve post-graduation\n' +
-          '          outcomes.</p>\n' +
-          '        <p>RadGrad helps computer science students evaluate the sometimes overwhelming number of academic and\n' +
-          '          extracurricular opportunities, and determine ways to invest their time most productively given their career\n' +
-          '          goals. </p>\n' +
-          '        <p>RadGrad also helps computer science departments by providing data-backed evidence regarding the success,\n' +
-          '          failure, and as-yet unrealized opportunities for the department to help produce successful computer\n' +
-          '          scientists. </p>',
-          align: 'left',
-        },
-      ]}
-    </LeftBlock>
-  </div>
 );
 
 const Feature4 = props => (
@@ -274,8 +165,8 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language}/>
         <div className="mainContainer">
-
-
+          <Overview/>
+          <AmyVideo/>
         </div>
       </div>
     );
