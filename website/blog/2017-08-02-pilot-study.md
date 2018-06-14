@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pilot study has begun!"
+title:  "Pilot study begins"
 date:   2017-08-02 16:29:39
 ---
 

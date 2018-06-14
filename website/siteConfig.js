@@ -7,9 +7,9 @@ const siteConfig = {
   projectName: 'docusaurus',
   organizationName: 'radgrad',
   headerLinks: [
-    { doc: 'intro-motivation', label: 'Documentation'},
-    { page: 'team2', label: 'Team'},
-    { blog: true, label: 'News' }
+    { href: 'https://radgrad.ics.hawaii.edu', label: 'radgrad.ics.hawaii.edu'},
+    { doc: 'intro-motivation', label: 'documentation'},
+    { blog: true, label: 'news' }
   ],
   headerIcon: 'img/radgrad_logo.png',
   footerIcon: 'img/radgrad_logo.png',
@@ -37,6 +37,7 @@ const siteConfig = {
   /* Open Graph and Twitter card images */
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
+  blogSidebarCount: 'ALL',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

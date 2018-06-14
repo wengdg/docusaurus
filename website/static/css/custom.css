@@ -1,5 +1,13 @@
 /* your custom css */
 
+footer .sitemap {
+  margin-bottom: 2em;
+}
+
+.roundedImageCorner img {
+  border-radius: 5%;
+}
+
 .mainContainer {
   font-size: 16px;
 }

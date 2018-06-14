@@ -129,7 +129,7 @@ class Team extends React.Component {
       },
       {
         name: 'Danny Weng',
-        img_src: imgUrl(''),
+        img_src: imgUrl('weng.jpg'),
         description: 'Student, Department of Information and Computer Sciences, University of Hawaii',
         time: 'Developer, Spring 2018',
       },
@@ -152,16 +152,9 @@ class Team extends React.Component {
     ];
     return (
       <Container>
-        <MarkdownBlock>
-          ## Semester breakdown
-        </MarkdownBlock>
-        <Container className='smallPadding'>RadGrad development began in Fall, 2015 with a series of brainstorming sessions involving Philip Johnson and Henri Casanova to generate a set of potential goals and design ideas for the system.</Container>
-        <Container className='smallPadding'>In Summer, 2016, David Chin, Scott Robertson, Michael-Brian Ogawa, and Henri Casanova agreed to join Philip Johnson to form the RadGrad Advisory Board. The board will meet a few times per year to oversee the direction of the project.</Container>
-        <Container className='smallPadding'>In Spring, 2016, members of ICS 414 (Brian Boado, Josephine Garces, Sorapong Khongnawang, Aljon Preza, Michael Spencer, Micah Tashima, Gilbert Yim, Kenny Luong, Sy Morikawa, Michele Shimoda, Philip Johnson, and Kelsie Yamakawa) generated a series of mockups and greatly refined the requirements and goals for the system.</Container>
-          <Container className='smallPadding'>In Fall, 2016, Amy Takeyesu, Cam Moore, Josephine Garces, Aljon Preza, and Philip Johnson began work on the first production release of the system.</Container>
-        <Container className='smallPadding'>In Summer, 2017, Amy Takeyesu finished her M.S. on RadGrad and the Pilot study began.</Container>
-        <Container className='smallPadding'>In Spring, 2018, RadGrad was released to the Information and Computer Sciences students.</Container>
-        <h2>Team Directory</h2>
+         <h2>Team Directory</h2>
+        <p style={{paddingBottom: "20px"}}>Our thanks to all of the dedicated students, faculty, and staff who have helped with the design and implementation of RadGrad.</p>
+        <div className="roundedImageCorner">
         <div style={{ width: '50%', float: 'left' }}>
           <TeamCard person={team[0]}/>
         </div>
@@ -218,6 +211,7 @@ class Team extends React.Component {
         </div>
         <div style={{ width: '50%', float: 'left' }}>
           <TeamCard person={team[18]}/>
+        </div>
         </div>
       </Container>
     )
