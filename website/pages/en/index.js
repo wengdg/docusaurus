@@ -89,7 +89,7 @@ class HomeSplash extends React.Component {
 
 const Overview = props => (
     <div className="overview">
-      <p style={{fontSize: "24px", paddingTop: "30px", paddingBottom: "10px"}}>The goal of RadGrad is to improve the undergraduate STEM degree experience.</p>
+      <h1 style={{fontSize: "24px", paddingTop: "30px", paddingBottom: "10px", fontWeight: "400"}}>The goal of RadGrad is to improve the undergraduate STEM degree experience.</h1>
       <p style={{paddingBottom: "10px", fontWeight: "300"}}>Target outcomes include increased engagement and retention for women and underrepresented minorities,</p>
     <p style={{paddingBottom: "10px", fontWeight: "300"}}>and improved post-graduation career opportunities for all participating students.</p>
       <p style={{paddingBottom: "10px", fontWeight: "300"}}>We currently focus on computer science and computer engineering degree programs.</p>
@@ -104,7 +104,7 @@ const AmyVideo = props => (
                 allow="autoplay; encrypted-media" allowFullScreen></iframe>
       </div>
       <div style={{textAlign: "center"}}>
-        <p style={{fontWeight: "400", fontSize: "16px"}}>Introduction to RadGrad, Amy Takayesu (January, 2017)</p>
+        <h3 style={{fontWeight: "400", fontSize: "16px"}}>Introduction to RadGrad, Amy Takayesu (January, 2017)</h3>
       </div>
     </div>
 );
