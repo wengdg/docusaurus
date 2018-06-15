@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Danny Weng joins RadGrad team"
+title:  "Danny Weng to research RadGrad engagement"
 date:   2018-05-01 16:29:39
 ---
 
-<img src="/docusaurus/img/people/weng.jpg" class="center-block img-responsive" style="margin-right: 15px; margin-bottom: 10px; float: left" width="100">
+<img src="/img/people/weng.jpg" style="margin-right: 5px; margin-bottom: 5px; float: left" width="100px">
 
 Danny Weng, an M.S. graduate student in Information and Computer Sciences, has joined the RadGrad team. 
 

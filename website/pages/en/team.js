@@ -18,7 +18,7 @@ function imgUrl(img) {
 const TeamCard = props => (
   <Container className='smallPadding'>
     <div style={{ width: '25%', float: 'top' }}>
-      <img className="roundedImage" src={props.person.img_src} width="100px"/>
+      <img className="roundedImageCorner" src={props.person.img_src} width="100px"/>
     </div>
     <div style={{ width: '75%', float: 'right' }}>
       <h4 style={{ padding: 0 }}>{props.person.name}</h4>
@@ -30,13 +30,7 @@ const TeamCard = props => (
 
 class Team extends React.Component {
   render() {
-    const team = [
-      {
-        title: 'Brian Boado',
-        image: imgUrl('boado.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
-        imageAlign: 'left',
-      },
+    const currentTeam = [
       {
         title: 'Henri Casanova',
         image: imgUrl('casanova.jpg'),
@@ -50,17 +44,51 @@ class Team extends React.Component {
         imageAlign: 'left',
       },
       {
-        title: 'Josephine Garces',
-        image: imgUrl('garces.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
-        imageAlign: 'left',
-      },
-      {
         title: 'Philip Johnson',
         image: imgUrl('johnson.jpg'),
         content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Head Wrangler, Fall, 2015 - present',
         imageAlign: 'left',
       },
+      {
+        title: 'Cam Moore',
+        image: imgUrl('moore.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Developer, Fall, 2016 - present',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Michael-Brian Ogawa',
+        image: imgUrl('ogawa.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Scott Robertson',
+        image: imgUrl('robertson.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Danny Weng',
+        image: imgUrl('weng.jpg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring 2018',
+        imageAlign: 'left',
+      },
+    ];
+    const formerTeam = [
+      {
+        title: 'Brian Boado',
+        image: imgUrl('boado.jpg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
+      },
+
+      {
+        title: 'Josephine Garces',
+        image: imgUrl('garces.jpg'),
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        imageAlign: 'left',
+      },
+
       {
         title: 'Sorapong Khongnawang',
         image: imgUrl('khongnawang.jpg'),
@@ -73,22 +101,11 @@ class Team extends React.Component {
         content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
         imageAlign: 'left',
       },
-      {
-        title: 'Cam Moore',
-        image: imgUrl('moore.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Developer, Fall, 2016 - present',
-        imageAlign: 'left',
-      },
+
       {
         title: 'Sy Morikawa',
         image: imgUrl('morikawa.jpg'),
         content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
-        imageAlign: 'left',
-      },
-      {
-        title: 'Michael-Brian Ogawa',
-        image: imgUrl('ogawa.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
         imageAlign: 'left',
       },
       {
@@ -97,12 +114,7 @@ class Team extends React.Component {
         content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
         imageAlign: 'left',
       },
-      {
-        title: 'Scott Robertson',
-        image: imgUrl('robertson.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
-        imageAlign: 'left',
-      },
+
       {
         title: 'Michele Shimoda',
         image: imgUrl('shimoda.jpg'),
@@ -127,12 +139,7 @@ class Team extends React.Component {
         content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
         imageAlign: 'left',
       },
-      {
-        title: 'Danny Weng',
-        image: imgUrl('weng.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring 2018',
-        imageAlign: 'left',
-      },
+
       {
         title: 'Kelsie Yamakawa',
         image: imgUrl('yamakawa.jpg'),
@@ -148,9 +155,13 @@ class Team extends React.Component {
     ];
     return (
       <Container>
-        <h2>Team Directory</h2>
-        <div className="roundedImage team">
-          <GridBlock align="left" contents={team} layout="threeColumn"/>
+        <h2 style={{fontWeight: "500"}}>Current Team Members</h2>
+        <div className="roundedImageCorner team">
+          <GridBlock align="left" contents={currentTeam} layout="twoColumn"/>
+        </div>
+        <h2 style={{fontWeight: "500"}}>Former Team Members</h2>
+        <div className="roundedImageCorner team">
+          <GridBlock align="left" contents={formerTeam} layout="twoColumn"/>
         </div>
       </Container>
     )
