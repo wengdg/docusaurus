@@ -20,10 +20,7 @@ You should see the site appear at http://localhost:3000.
 
 ## Writing documentation
 
-To write documentation, you should create or modify the files in the docs/ directory.  The docs/ directory has the following structure:
-
-  * A bunch of *.md files.  These files contain the documentation in markdown format.
-  * The assets/ directory.  This directory contains a number of subdirectories which hold images referenced by the documentation markdown files. 
+To write documentation, you should create or modify the files in the docs/ directory.  The docs/ directory contains a set of *.md files with no subdirectories. 
   
 The easiest way to get started is to copy an existing markdown file that seems to contain the kind of markdown you need to use, and then edit it to provide the needed documentation.
 

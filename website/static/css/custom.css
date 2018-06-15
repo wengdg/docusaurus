@@ -4,7 +4,19 @@ footer .sitemap {
   margin-bottom: 2em;
 }
 
-a {
+a, h1, h2, h3, h4 {
+  color: #4d9078;
+}
+
+.container .wrapper h2 {
+  color: #4d9078;
+}
+
+.container .wrapper h3 {
+  color: #4d9078;
+}
+
+.container .wrapper h4 {
   color: #4d9078;
 }
 
