@@ -24,5 +24,7 @@ The fundamental goal of the RadGrad Project is to provide students, faculty, and
 
 Over the past two years, we have developed this idea into a conceptual framework called *Degree Experience Plans* (DEP) and a supporting technology platform called *RadGrad*. The design of DEP/RadGrad is influenced by research on diversity and retention and two educational research theories:  Individualized Learning Plans (ILP) and Communities of Practice (CoP).  ILPs help students connect their current studies to their future career goals. CoP identifies the importance of practitioner networks for both formal and informal learning. Based upon this prior research, and our pilot use of DEP/RadGrad with a small set of undergraduate students, we hypothesize that student populations adopting the Degree Experience perspective will show increased levels of engagement, retention, and diversity. 
 
+We ultimately believe DEP/RadGrad can be used to improve a variety of STEM degree programs. However, at this time we focus on computer science and computer engineering programs.  
+
 
 
