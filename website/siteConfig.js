@@ -2,8 +2,8 @@
 const siteConfig = {
   title: 'RadGrad',
   tagline: 'Developing awesome computer scientists, one graduate at a time',
-  url: 'https://radgrad.github.io' ,
-  baseUrl: '/docusaurus/' ,
+  url: 'https://radgrad.netlify.com' ,
+  baseUrl: '/' ,
   projectName: 'docusaurus',
   organizationName: 'radgrad',
   headerLinks: [
