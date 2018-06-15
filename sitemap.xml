@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://radgrad.github.io/404.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://radgrad.github.io/en/404.html" /> </url>
+<url> <loc>https://radgrad.github.io/contact-us.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://radgrad.github.io/en/contact-us.html" /> </url>
 <url> <loc>https://radgrad.github.io/help.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://radgrad.github.io/en/help.html" /> </url>
 <url> <loc>https://radgrad.github.io/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://radgrad.github.io/en/index.html" /> </url>
+<url> <loc>https://radgrad.github.io/team-old.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://radgrad.github.io/en/team-old.html" /> </url>
 <url> <loc>https://radgrad.github.io/team.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://radgrad.github.io/en/team.html" /> </url>
-<url> <loc>https://radgrad.github.io/team2.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://radgrad.github.io/en/team2.html" /> </url>
+<url> <loc>https://radgrad.github.io/blog/2018/05/01/danny-weng.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://radgrad.github.io/blog/2018/01/01/initial-deployment.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://radgrad.github.io/blog/2017/08/02/pilot-study.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://radgrad.github.io/blog/2017/07/07/amy-takayesu.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://radgrad.github.io/blog/2017/01/29/booz-allen.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>

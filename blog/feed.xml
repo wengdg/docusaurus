@@ -4,7 +4,7 @@
         <title>RadGrad Blog</title>
         <link>https://radgrad.github.io/docusaurus/blog</link>
         <description>The best place to stay up-to-date with the latest RadGrad news and events.</description>
-        <lastBuildDate>Wed, 02 Aug 2017 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 May 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,7 +14,25 @@
         </image>
         <copyright>Copyright © 2018 RadGrad</copyright>
         <item>
-            <title><![CDATA[Pilot study has begun!]]></title>
+            <title><![CDATA[Danny Weng joins RadGrad team]]></title>
+            <link>https://radgrad.github.io/docusaurus/blog/2018/05/01/danny-weng.html</link>
+            <guid>https://radgrad.github.io/docusaurus/blog/2018/05/01/danny-weng.html</guid>
+            <pubDate>Tue, 01 May 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/docusaurus/img/people/weng.jpg" class="center-block img-responsive" style="margin-right: 15px; margin-bottom: 10px; float: left" width="100"></p>
+<p>Danny Weng, an M.S. graduate student in Information and Computer Sciences, has joined the RadGra</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Initial deployment]]></title>
+            <link>https://radgrad.github.io/docusaurus/blog/2018/01/01/initial-deployment.html</link>
+            <guid>https://radgrad.github.io/docusaurus/blog/2018/01/01/initial-deployment.html</guid>
+            <pubDate>Mon, 01 Jan 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>During Spring semester, 2018, we are deploying RadGrad into the Department of Information and Computer Sciences at the University of Hawaii.</p>
+<p>Deployment will begin with registering all of the students taking ICS 211 and ICS 314.  This should result</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pilot study begins]]></title>
             <link>https://radgrad.github.io/docusaurus/blog/2017/08/02/pilot-study.html</link>
             <guid>https://radgrad.github.io/docusaurus/blog/2017/08/02/pilot-study.html</guid>
             <pubDate>Wed, 02 Aug 2017 06:00:00 GMT</pubDate>
