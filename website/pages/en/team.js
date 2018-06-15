@@ -58,7 +58,7 @@ class Team extends React.Component {
       {
         title: 'Philip Johnson',
         image: imgUrl('johnson.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Head Hacker Wrangler, Fall, 2015 - present',
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Head Wrangler, Fall, 2015 - present',
         imageAlign: 'left',
       },
       {
