@@ -30,29 +30,17 @@ const TeamCard = props => (
 
 class Team extends React.Component {
   render() {
-    const currentTeam = [
+    const advisoryBoard = [
       {
         title: 'Henri Casanova',
         image: imgUrl('casanova.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Spring, 2016 - present',
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Spring, 2016 - present',
         imageAlign: 'left',
       },
       {
         title: 'David Chin',
         image: imgUrl('chin.jpg'),
         content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
-        imageAlign: 'left',
-      },
-      {
-        title: 'Philip Johnson',
-        image: imgUrl('johnson.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Head Wrangler, Fall, 2015 - present',
-        imageAlign: 'left',
-      },
-      {
-        title: 'Cam Moore',
-        image: imgUrl('moore.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Developer, Fall, 2016 - present',
         imageAlign: 'left',
       },
       {
@@ -67,101 +55,131 @@ class Team extends React.Component {
         content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
         imageAlign: 'left',
       },
+    ];
+    const developmentTeam = [
+      {
+        title: 'Philip Johnson',
+        image: imgUrl('johnson.jpeg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Fall, 2015 - present',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Peter Leong',
+        image: imgUrl('leong.jpg'),
+        content: 'Professor, Department of Educational Technology, University of Hawaii. Fall, 2017 - present',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Cam Moore',
+        image: imgUrl('moore.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Fall, 2016 - present',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Seungoh Paek',
+        image: imgUrl('paek.jpg'),
+        content: 'Professor, Department of Learning Design and Technology, University of Hawaii. Fall, 2017 - present',
+        imageAlign: 'left',
+      },
       {
         title: 'Danny Weng',
         image: imgUrl('weng.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring 2018',
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Spring 2018 - present',
         imageAlign: 'left',
       },
     ];
-    const formerTeam = [
+    const alumni = [
       {
         title: 'Brian Boado',
         image: imgUrl('boado.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
 
       {
         title: 'Josephine Garces',
         image: imgUrl('garces.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
 
       {
         title: 'Sorapong Khongnawang',
         image: imgUrl('khongnawang.jpg'),
-        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
       {
         title: 'Kenny Luong',
         image: imgUrl('luong.png'),
-        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
 
       {
         title: 'Sy Morikawa',
         image: imgUrl('morikawa.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
       {
         title: 'Aljon Preza',
         image: imgUrl('preza.png'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
 
       {
         title: 'Michele Shimoda',
         image: imgUrl('shimoda.jpg'),
-        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
       {
         title: 'Michael Spencer',
         image: imgUrl('spencer.jpg'),
-        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
       {
         title: 'Amy Takayesu',
         image: imgUrl('takayesu.jpeg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Fall, 2016 - Summer, 2017',
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Fall, 2016 - Summer, 2017',
         imageAlign: 'left',
       },
       {
         title: 'Micah Tashima',
         image: imgUrl('tashima.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
 
       {
         title: 'Kelsie Yamakawa',
         image: imgUrl('yamakawa.jpg'),
-        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
       {
         title: 'Gilbert Yim',
         image: imgUrl('yim.jpg'),
-        content: 'Student, Department of Electrical Engineering, University of Hawaii. Developer, Spring, 2016',
+        content: 'Student, Department of Electrical Engineering, University of Hawaii. Spring, 2016',
         imageAlign: 'left',
       },
     ];
     return (
       <Container>
-        <h2 style={{fontWeight: "500"}}>Current Team Members</h2>
+        <h2 style={{fontWeight: "500"}}>Development Team</h2>
         <div className="roundedImageCorner team">
-          <GridBlock align="left" contents={currentTeam} layout="twoColumn"/>
+          <GridBlock align="left" contents={developmentTeam} layout="twoColumn"/>
         </div>
-        <h2 style={{fontWeight: "500"}}>Former Team Members</h2>
+        <h2 style={{fontWeight: "500"}}>Advisory Board</h2>
         <div className="roundedImageCorner team">
-          <GridBlock align="left" contents={formerTeam} layout="twoColumn"/>
+          <GridBlock align="left" contents={advisoryBoard} layout="twoColumn"/>
+        </div>
+        <h2 style={{fontWeight: "500"}}>Alumni</h2>
+        <div className="roundedImageCorner team">
+          <GridBlock align="left" contents={alumni} layout="twoColumn"/>
         </div>
       </Container>
     )

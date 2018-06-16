@@ -10,7 +10,6 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const MarkdownBlock = CompLibrary.MarkdownBlock;
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
-
 const siteConfig = require(process.cwd() + '/siteConfig.js');
 
 function imgUrl(img) {
@@ -56,22 +55,12 @@ const Logo = props => (
 );
 
 const ProjectTitle = props => (
-  <div>
-    <img style={{ paddingRight: "10px" }} width='55px' src={imgUrl('radgrad_logo.png')}/>
-    <span>
-    <span style={{ fontFamily: 'Nunito', fontWeight: 700 }} className="projectTitle">RAD</span>
-    <span style={{ fontFamily: 'Nunito', fontWeight: 400 }} className="projectTitle">GRAD</span>
-    </span>
-    <h2>{siteConfig.tagline}</h2>
-  </div>
-);
-
-const PromoSection = props => (
-  <div className="section promoSection">
-    <div className="promoRow">
-      <div className="pluginRowBlock">{props.children}</div>
+    <div>
+      <img style={{ paddingRight: "10px" }} width='55px' src={imgUrl('radgrad_logo.png')}/>
+      <span style={{ fontFamily: 'Nunito', fontWeight: 700 }} className="projectTitle">RAD</span>
+      <span style={{ fontFamily: 'Nunito', fontWeight: 400 }} className="projectTitle">GRAD</span>
+      <h2>{siteConfig.tagline}</h2>
     </div>
-  </div>
 );
 
 class HomeSplash extends React.Component {
@@ -88,19 +77,21 @@ class HomeSplash extends React.Component {
 }
 
 const Overview = props => (
-    <div className="overview">
-      <h1 style={{fontSize: "24px", paddingTop: "30px", paddingBottom: "10px", fontWeight: "400"}}>The goal of RadGrad is to improve the undergraduate STEM degree experience.</h1>
-      <p style={{paddingBottom: "10px", fontWeight: "300"}}>Target outcomes include increased engagement and retention for women and underrepresented minorities,</p>
-    <p style={{paddingBottom: "10px", fontWeight: "300"}}>and improved post-graduation career opportunities for all participating students.</p>
-      <p style={{paddingBottom: "10px", fontWeight: "300"}}>We currently focus on computer science and computer engineering degree programs.</p>
-    </div>
+    <Container>
+      <div className="overview">
+        <h1 style={{fontSize: "24px", paddingTop: "30px", paddingBottom: "10px", fontWeight: "400", textAlign: "center"}}>The goal of RadGrad is to improve the undergraduate STEM degree experience.</h1>
+        <h4 style={{paddingBottom: "10px", fontWeight: "300", textAlign: "center"}}>Target outcomes include increased engagement and retention, particularly for women and underrepresented minorities,</h4>
+        <h4 style={{paddingBottom: "10px", fontWeight: "300", textAlign: "center"}}>and improved post-graduation career opportunities for all participating students.</h4>
+        <h4 style={{paddingBottom: "10px", fontWeight: "300", textAlign: "center"}}>We currently focus on computer science and computer engineering degree programs.</h4>
+      </div>
+    </Container>
 );
 
+// NOTE: Do not include width attribute in <iframe>--- it messes up mobile site display.
 const AmyVideo = props => (
     <div style={{background: "white", paddingTop: "20px", paddingBottom: "20px"}}>
-
-      <div align="center" className="inner" style={{paddingTop: "20px"}}>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BzgBlgWfTdE" frameBorder="0"
+      <div align="center">
+      <iframe height="315" src="https://www.youtube.com/embed/BzgBlgWfTdE" frameBorder="0"
                 allow="autoplay; encrypted-media" allowFullScreen></iframe>
       </div>
       <div style={{textAlign: "center"}}>
@@ -108,55 +99,6 @@ const AmyVideo = props => (
       </div>
     </div>
 );
-
-const Block = props => (
-  <Container
-    padding={['bottom', 'top']}
-    id={props.id}
-    background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout}/>
-  </Container>
-);
-
-const LeftBlock = props => (
-  <Container
-    padding={['bottom', 'top']}
-    id={props.id}
-    background={props.background}>
-    <GridBlock align="left" contents={props.children} layout={props.layout}/>
-  </Container>
-);
-
-const BlockNoPadding = props => (
-  <Container
-    padding={[]}
-    id={props.id}
-    background={props.background}>
-    <GridBlock align="center" contents={props.children} layout={props.layout}/>
-  </Container>
-);
-
-const Feature4 = props => (
-  <div>
-    <LeftBlock layout="twoColumn">
-      {[
-        {
-          content: '<p>In this 12 minute screencast, Amy Takayesu, a graduate student in ICS, explains RadGrad from the\n' +
-          '          student perspective.</p>',
-          align: 'left',
-        },
-        {
-          content: '<div style="margin-top:20px; margin-bottom: 20px;" class="embed-responsive embed-responsive-4by3">\n' +
-          '          <iframe class="embed-responsive-item" src="//www.youtube.com/embed/BzgBlgWfTdE"></iframe>\n' +
-          '        </div>',
-          align: 'left',
-          title: 'Amy Takayesu on RadGrad',
-        },
-      ]}
-    </LeftBlock>
-  </div>
-);
-
 
 class Index extends React.Component {
   render() {
