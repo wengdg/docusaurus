@@ -44,12 +44,6 @@ class Team extends React.Component {
         imageAlign: 'left',
       },
       {
-        title: 'David Chin',
-        image: imgUrl('chin.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
-        imageAlign: 'left',
-      },
-      {
         title: 'Aaron Kagawa',
         image: imgUrl('kagawa.jpeg'),
         content: 'Technical Lead, Native Stories',
@@ -64,6 +58,12 @@ class Team extends React.Component {
       {
         title: 'Michael-Brian Ogawa',
         image: imgUrl('ogawa.jpg'),
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Guylaine Poisson',
+        image: imgUrl('poisson.jpg'),
         content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
         imageAlign: 'left',
       },
