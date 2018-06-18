@@ -27,6 +27,8 @@ const siteConfig = {
     theme: 'default',
   },
 
+  algolia: { apiKey: '012c57e0c263840b94aedde05ba9b733', indexName: 'radgrad' },
+
   // Add custom scripts here that would be placed in <script> tags
   scripts: ['https://buttons.github.io/buttons.js'],
 

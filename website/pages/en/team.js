@@ -32,27 +32,51 @@ class Team extends React.Component {
   render() {
     const advisoryBoard = [
       {
+        title: 'Robert Brewer',
+        image: imgUrl('brewer.jpg'),
+        content: 'Engineering Manager, Tableau, Inc.',
+        imageAlign: 'left',
+      },
+      {
         title: 'Henri Casanova',
         image: imgUrl('casanova.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Spring, 2016 - present',
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
         imageAlign: 'left',
       },
       {
         title: 'David Chin',
         image: imgUrl('chin.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Aaron Kagawa',
+        image: imgUrl('kagawa.jpeg'),
+        content: 'Technical Lead, Native Stories',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Yuka Nagashima',
+        image: imgUrl('nagashima.jpg'),
+        content: 'President, Paideia Enterprises',
         imageAlign: 'left',
       },
       {
         title: 'Michael-Brian Ogawa',
         image: imgUrl('ogawa.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
         imageAlign: 'left',
       },
       {
         title: 'Scott Robertson',
         image: imgUrl('robertson.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Advisory Board member, Summer, 2016 - present',
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
+        imageAlign: 'left',
+      },
+      {
+        title: 'Amy Takayesu',
+        image: imgUrl('takayesu.jpeg'),
+        content: 'Software Engineer, LiveAction, Inc.',
         imageAlign: 'left',
       },
     ];
@@ -60,31 +84,31 @@ class Team extends React.Component {
       {
         title: 'Philip Johnson',
         image: imgUrl('johnson.jpeg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Fall, 2015 - present',
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
         imageAlign: 'left',
       },
       {
         title: 'Peter Leong',
         image: imgUrl('leong.jpg'),
-        content: 'Professor, Department of Educational Technology, University of Hawaii. Fall, 2017 - present',
+        content: 'Professor, Department of Educational Technology, University of Hawaii',
         imageAlign: 'left',
       },
       {
         title: 'Cam Moore',
         image: imgUrl('moore.jpg'),
-        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii. Fall, 2016 - present',
+        content: 'Professor, Department of Information and Computer Sciences, University of Hawaii',
         imageAlign: 'left',
       },
       {
         title: 'Seungoh Paek',
         image: imgUrl('paek.jpg'),
-        content: 'Professor, Department of Learning Design and Technology, University of Hawaii. Fall, 2017 - present',
+        content: 'Professor, Department of Learning Design and Technology, University of Hawaii',
         imageAlign: 'left',
       },
       {
         title: 'Danny Weng',
         image: imgUrl('weng.jpg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Spring 2018 - present',
+        content: 'Student, Department of Information and Computer Sciences, University of Hawaii',
         imageAlign: 'left',
       },
     ];
@@ -139,12 +163,6 @@ class Team extends React.Component {
         title: 'Michael Spencer',
         image: imgUrl('spencer.jpg'),
         content: 'Student, Department of Electrical Engineering, University of Hawaii. Spring, 2016',
-        imageAlign: 'left',
-      },
-      {
-        title: 'Amy Takayesu',
-        image: imgUrl('takayesu.jpeg'),
-        content: 'Student, Department of Information and Computer Sciences, University of Hawaii. Fall, 2016 - Summer, 2017',
         imageAlign: 'left',
       },
       {

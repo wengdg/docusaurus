@@ -20,6 +20,10 @@ a, h1, h2, h3, h4 {
   color: #4d9078;
 }
 
+input#search_input_react {
+  background-color: slategray;
+}
+
 body {
   background: white;
 }
