@@ -40,6 +40,7 @@ const siteConfig = {
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
   blogSidebarCount: 'ALL',
+  blogSidebarTitle: { default: 'News', all: 'News' },
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
