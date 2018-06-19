@@ -54,7 +54,9 @@ class StreetTeam extends React.Component {
 
             <p style={{maxWidth: "100em"}}>Contact Philip Johnson (johnson@hawaii.edu) if you would like to help out. We want the RadGrad Street Team to comprise students at different levels and with different backgrounds, so don't be inhibited if you don't consider yourself to be a "traditional" computer science student. </p>
 
-            <p style={{maxWidth: "100em"}}>Your primary responsibility as a RadGrad Street Team member will be to attend a one hour meeting approximately once a month.  There will always be food. We will use Doodle to try to find a time where everyone can attend. At each meeting, RadGrad administrators will bring the Street Team up to date and lead discussions on issues of concern. For some meetings, we might request a small amount of advance preparation (for example, "Please review the MentorSpace page and come prepared to offer suggestions on how to improve it.")</p>
+            <p style={{maxWidth: "100em"}}>If you're interested, but not yet registered in RadGrad, let Philip know. We can arrange a special onboarding session in late June or early July for you. </p>
+
+            <p style={{maxWidth: "100em"}}>Your primary responsibility as a RadGrad Street Team member will be to attend a one hour meeting approximately once a month, starting in July or August.  There will always be food. We will use Doodle to try to find a time where everyone can attend. At each meeting, RadGrad administrators will bring the Street Team up to date and lead discussions on issues of concern. For some meetings, we might request a small amount of advance preparation (for example, "Please review the MentorSpace page and come prepared to offer suggestions on how to improve it.")</p>
 
             <p style={{maxWidth: "100em"}}>If you're interested in doing more than coming to a monthly meeting, it might be possible to get ICS 499 (Independent Study) credits. Discuss with Philip.</p>
 
