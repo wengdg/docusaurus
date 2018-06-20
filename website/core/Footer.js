@@ -51,8 +51,9 @@ class Footer extends React.Component {
             </div>
           </section>
           <p style={{textAlign: 'center', color: 'white'}}>RadGrad is sponsored by:<br/>
-            <a style={{textAlign: 'center', color: 'white'}} href="http://csdl.ics.hawaii.edu">Collaborative Software Development Laboratory, University of Hawaii</a><br/>
-            <a style={{textAlign: 'center', color: 'white'}} href="http://www.ics.hawaii.edu">Department of Information and Computer Sciences, University of Hawaii</a><br/>
+            <a style={{textAlign: 'center', color: 'white'}} href="http://csdl.ics.hawaii.edu">Collaborative Software Development Laboratory</a><br/>
+            <a style={{textAlign: 'center', color: 'white'}} href="http://www.ics.hawaii.edu">Department of Information and Computer Sciences</a><br/>
+            <a style={{textAlign: 'center', color: 'white'}} href="http://www.hawaii.edu">University of Hawaii</a><br/>
             </p>
         </footer>
     );
