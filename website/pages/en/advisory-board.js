@@ -39,9 +39,9 @@ class AdvisoryBoard extends React.Component {
 
             <h3>Defining and assessing engagement</h3>
 
-            <p style={{maxWidth: "100em"}}></p>
+            <p style={{maxWidth: "100em"}}>We are instrumenting the RadGrad environment so that we can track each user's use of the system and abstract low-level interactions into the following higher level behaviors: <ol><li>Change outlook: a change in interests, career goals, or degree plan</li><li>Exploration: viewing entries in the career goal, interest, course, user, and/or opportunity explorer</li><li> Planning: changes to the courses and/or opportunities in the Degree Planner</li><li>Verification: submission of completed opportunities </li><li>Reviewing: submission of a course or opportunity review</li><li>Mentorship: visits and interaction with the MentorSpace area</li><li> Leveling Up: achieving the next level</li><li>Complete Plan Achieved: planning at least 100 points in all three ICE categories</li></ol> The instrumentation will result in a timeline for each student, representing when each student uses RadGrad and which of the above behaviors were exhibited while they used it.</p>
 
-            <p style={{maxWidth: "100em"}}></p>
+            <p style={{maxWidth: "100em"}}>We propose the following operational definition for an "engaged" user of RadGrad: <em>A student is an engaged user of RadGrad for a given semester if they exhibit at least 4 out of the 8 behaviors listed above.</em> </p>
 
             <p style={{maxWidth: "100em"}}></p>
 
