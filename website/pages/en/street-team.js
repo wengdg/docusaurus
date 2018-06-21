@@ -30,7 +30,7 @@ class StreetTeam extends React.Component {
             </header>
             <p style={{maxWidth: "100em"}}>Are you an undergraduate in ICS or Computer Engineering?  Are you intrigued by the potential for RadGrad to improve the undergraduate experience?  Do you want to help change RadGrad for the better? If so, please consider joining the RadGrad Street Team!</p>
 
-            <p style={{maxWidth: "100em"}}>Currently, over 200 ICS and Computer Engineering students are registered in RadGrad. During the first few weeks of the Fall semester, we will register all students enrolled in ICS 314 and ICS 211, which will add over 100 more. </p>
+            <p style={{maxWidth: "100em"}}>Currently, over 200 ICS and Computer Engineering students are registered in RadGrad. During the first few weeks of the Fall semester, we will register students enrolled in ICS 211, which will add over 100 more, as well as provide "open" registration sessions so any undergraduate in ICS or CE can join the RadGrad community. </p>
 
             <p style={{maxWidth: "100em"}}>To make RadGrad as useful as possible, we are looking for students to help us with the following: </p>
 
@@ -46,7 +46,7 @@ class StreetTeam extends React.Component {
 
             <p style={{maxWidth: "100em"}}><b>Improve community formation.</b> One goal of RadGrad is to help students form "communities of practice", i.e. informal groups based on a shared interest who desire to attain proficiency with a technology or disciplinary area. How can we make RadGrad better at helping students to find and form communities? </p>
 
-            <p style={{maxWidth: "100em"}}><b>Improve support for women and underrepresented minorities in computer science.</b> There is evidence from the literature that RadGrad can help improve diversity in computer science degree programs. Is this true in reality? How can we change RadGrad to make it more useful to women and underrepresented minorities?</p>
+            <p style={{maxWidth: "100em"}}><b>Improve support for women and/or underrepresented minorities in computer science.</b> There is evidence from the literature that RadGrad can help improve diversity in computer science degree programs. Is this true in reality? How can we change RadGrad to make it more useful to women and/or underrepresented minorities?</p>
 
             <p style={{maxWidth: "100em"}}><b>Improve (i.e. hack) RadGrad itself.</b> Is there a feature you'd like to see implemented in RadGrad?  We can offer course credits, mentoring, encouragement, and debugging advice if you want to get involved with the RadGrad project as a developer.  It will look great on your professional portfolio. </p>
 
