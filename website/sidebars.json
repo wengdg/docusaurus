@@ -6,7 +6,7 @@
     "API": ["api-javascript-jsdocs"],
     "Documentation": ["documentation-docusaurus", "documentation-jsdoc"],
     "Delivery": ["delivery-scripts", "delivery-deployment", "delivery-cas", "delivery-cloudinary", "delivery-star-bulk-download", "delivery-level-calculation"],
-    "Analytics": ["analytics-overview"],
+    "Analytics": ["analytics-overview", "analytics-engagement"],
     "Archive": ["archive-use-cases", "archive-beta-test", "archive-radgrad-registration"]
   }
 }
